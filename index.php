@@ -3,34 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Php practice</title>
 </head>
 <body>
-   
-<h1>hello world</h1>
-<?php
-    echo 'Hello world';
-?>
+    <div class="container">
+        <h1>PHP Practice</h1>
+        <p>This is a simple PHP practice page.</p>
+        <?php
+            // PHP code goes here
+            echo "<p>Hello, World!</p>";
+        ?>
+        <p>Current date and time: <?php echo date('Y-m-d H:i:s'); ?></p>
 
-<?php
-    echo "<br>";
-    echo "<br>";
+        <?php
+            echo "hello world";
+            echo "<br>";
 
-    $variable1 = 99;
-    $variable2 = "tommy";
-    $variable3 = 33;
-    
-    echo $variable1;
-    echo "<br>";
+        ?>
 
-    echo $variable2;    
-    echo "<br>";
-    echo $variable1 + $variable3;
-?>
+    <?php 
+    // variales are written in $ sign
 
-<?php
-    // Operators
-?>
 
+    ?> 
+        
+
+
+    </div>
 </body>
 </html>
