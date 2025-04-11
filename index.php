@@ -21,11 +21,15 @@
 
         ?>
 
-    <?php 
-    // variales are written in $ sign
+         <?php 
+         // variales are written in $ sign
+        $variable1 = 55;
+        $variable2 = 45;
+        $sum = $variable1 + $variable2;
+        echo $sum;
+        echo "<br>";
 
-
-    ?> 
+          ?> 
         
 
 
